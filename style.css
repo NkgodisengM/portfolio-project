@@ -1,5 +1,9 @@
+:root {
+  --branding-color: #f9f7fe;
+}
+
 .hero {
-  background: #f9f7fe;
+  background: var(--branding-color);
   text-align: center;
   padding: 150px 20px;
 }
@@ -32,12 +36,10 @@ p {
 }
 
 .btn-branding {
-  padding: 18px 30px;
+  padding: 15px 30px;
   border-radius: 4px;
   background: #6c63ff;
   color: white;
-  display: flex;
-  justify-content: center;
-  width: 108;
-  height: 27;
+  line-height: 27px;
+  font-size: 18px;
 }
